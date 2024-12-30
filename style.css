@@ -1,0 +1,112 @@
+.navbar-custom {
+    background: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(5px); 
+    padding: 20px 20px; 
+    min-height: 80px; 
+}
+
+.nav-right {
+    margin-right: 30px; 
+}
+
+.home-icon {
+    font-size: 2rem; 
+    margin-left: 20px; 
+    color: white; 
+}
+
+.home-icon:hover {
+    color: #5988ff; 
+}
+
+.nav-link {
+    color: #ffffff !important; 
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #cccccc !important; 
+}
+
+.nav-link.active {
+    color: #f64a4a !important;
+    font-weight: bold; 
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.bagel-fat-one-regular {
+    font-family: "Bagel Fat One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.background-fr {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-en {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-es {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-it {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-pt {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-de {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-pl {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-ru {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-nl {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-sr {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+  
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-grow: 1; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+}
+  
+h2 {
+    margin: 0;
+    font-family: "Bagel Fat One", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: font-size 0.3s ease; 
+}
+
+h2:hover {
+  font-size: 4em; 
+}
